@@ -88,7 +88,8 @@ body {
     box-sizing: border-box;
 
     height: 48px;
-    border: 1px solid gray;
+    border: 1px solid #98A3AE7A;
+
     border-radius: 8px;
 
     line-height: 16px;
@@ -100,6 +101,7 @@ body {
 
     font-size: 14px;
     font-weight: 400;
+    background-color: white;
 
 }
 
@@ -209,7 +211,7 @@ body {
 
 .specialization_title {
     font-size: 16px;
-    color: #363E45A3;
+    color: rgba(54, 62, 69, 0.85);
     line-height: 24px;
     margin: 0 1px 0;
 }
@@ -477,6 +479,9 @@ body {
     margin: 0;
 
 }
+.text_reference {
+    text-decoration: none;
+}
 
 .copyright {
     /*width: 51px;*/
@@ -484,5 +489,5 @@ body {
     font-size: 14px;
     line-height: 18.48px;
     font-weight: 400;
-    color: #363E45A3;
+    color: rgba(54, 62, 69, 0.8);
 }
