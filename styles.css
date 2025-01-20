@@ -257,16 +257,42 @@ body {
     width: 586px;
     height: 400px;
     gap: 10px;
+    margin-top: 4px;
+
 }
 
 .skill {
     margin-bottom: 31px;
 }
 
+.personalities {
+    margin-bottom: 7px;
+}
+
+.personality_bar_details {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    width: 554px;
+    height: 24px;
+    margin: 0;
+    padding: 0;
+
+
+}
+
+.personalities_text {
+    font-size: 14px;
+    line-height: 16px;
+    margin: 0;
+}
+
 .skill_name {
     font-size: 16px;
     line-height: 24px;
-    margin-bottom: 4px;
+    /*margin-bottom: 4px;*/
+    margin:0;
 }
 
 .skill_knowledge {
@@ -280,9 +306,11 @@ body {
 .skill ::-webkit-progress-bar {
     border-radius: 4px;
 }
+
 .skill ::-webkit-progress-value {
     border-radius: 4px;
 }
+
 .energy ::-webkit-progress-value {
     background: #4298b4;
 }
@@ -479,6 +507,7 @@ body {
     margin: 0;
 
 }
+
 .text_reference {
     text-decoration: none;
 }
